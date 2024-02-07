@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+
+}
+
+
+#progress .times,
+.card-footer,
+.volume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#volume,
+#volume-bar{
+    margin-right: 10px;
+}
+
+
+.repeat_music{
+    color: green; /* veya istediğiniz bir renk */
+    filter: brightness(150%); /* Parlaklık efekti */
+
+}
+
+li.playing{
+    background-color: #0b5eb7;
+    color: #fff;
+}
